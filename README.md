@@ -195,6 +195,10 @@ restaurant_survival/
 │   └── schemas.py
 ├── frontend/
 │   └── app.py
+├── docs/
+│   └── images/
+│       ├── lightmode.png
+│       └── darkmode.png
 ├── modeling/
 │   ├── dbutil.py
 │   ├── main.py
