@@ -309,8 +309,8 @@
       <figure class="card browser">
         <div class="browser-bar" aria-hidden="true"><i></i><i></i><i></i></div>
         <picture>
-          <source srcset="images/darkmode.png" media="(prefers-color-scheme: dark)">
-          <img src="images/lightmode.png" alt="음식점 생존 예측 웹 화면. 왼쪽에서 강남구 역삼동 한식을 고르자 오른쪽에 1·3·5년 생존율 카드와 꺾은선 그래프 두 개가 나온 모습" width="2498" height="1128">
+          <source srcset="docs/images/darkmode.png" media="(prefers-color-scheme: dark)">
+          <img src="docs/images/lightmode.png" alt="음식점 생존 예측 웹 화면. 왼쪽에서 강남구 역삼동 한식을 고르자 오른쪽에 1·3·5년 생존율 카드와 꺾은선 그래프 두 개가 나온 모습" width="2498" height="1128">
         </picture>
       </figure>
     </div>
@@ -371,19 +371,19 @@
     </div>
     <div class="shots demo">
       <figure class="card shot tall">
-        <a href="images/rs-1-input.png"><img src="images/rs-1-input.png" alt="질문형 입력 화면. 위치가 어디신가요, 어떤 업종인가요 아래에 구·동·업종 선택 상자와 면적·인원 입력칸, 생존율 분석하기 버튼" loading="lazy" width="680" height="1010"></a>
+        <a href="docs/images/rs-1-input.png"><img src="docs/images/rs-1-input.png" alt="질문형 입력 화면. 위치가 어디신가요, 어떤 업종인가요 아래에 구·동·업종 선택 상자와 면적·인원 입력칸, 생존율 분석하기 버튼" loading="lazy" width="680" height="1010"></a>
         <figcaption><b>1. 조건 입력</b><span>질문형 입력. 구를 고르면 그 구의 동 목록으로 바뀜 (조혁준 팀원)</span></figcaption>
       </figure>
       <figure class="card shot">
-        <a href="images/rs-2-summary.png"><img src="images/rs-2-summary.png" alt="분석 입력 데이터 표. 구 강남구, 동 역삼동, 업태 한식, 동종업체수 689개 등" loading="lazy" width="1400" height="315"></a>
+        <a href="docs/images/rs-2-summary.png"><img src="docs/images/rs-2-summary.png" alt="분석 입력 데이터 표. 구 강남구, 동 역삼동, 업태 한식, 동종업체수 689개 등" loading="lazy" width="1400" height="315"></a>
         <figcaption><b>2. 입력 요약</b><span>고른 조건과 서버가 계산한 동종업체수를 표로 확인</span></figcaption>
       </figure>
       <figure class="card shot">
-        <a href="images/rs-3-result.png"><img src="images/rs-3-result.png" alt="1·3·5년 생존율 카드 43.7%, 46.2%, 47.0%와 모델 예측(파랑), 데이터 평균(주황) 꺾은선 그래프" loading="lazy" width="1400" height="453"></a>
+        <a href="docs/images/rs-3-result.png"><img src="docs/images/rs-3-result.png" alt="1·3·5년 생존율 카드 43.7%, 46.2%, 47.0%와 모델 예측(파랑), 데이터 평균(주황) 꺾은선 그래프" loading="lazy" width="1400" height="453"></a>
         <figcaption><b>3. 예측 결과와 비교 그래프 <span class="mine">그래프 내가 구현</span></b><span>위쪽 생존율 카드는 김병수 팀원, 아래 꺾은선 그래프(모델 예측 파랑 · 같은 동·업종 실제 평균 주황)는 제가 만들었습니다</span></figcaption>
       </figure>
       <figure class="card shot">
-        <a href="images/rs-4-dark.png"><img src="images/rs-4-dark.png" alt="같은 결과 화면의 다크 모드. 카드와 그래프 배경이 어두운 색으로 바뀐 모습" loading="lazy" width="1400" height="453"></a>
+        <a href="docs/images/rs-4-dark.png"><img src="docs/images/rs-4-dark.png" alt="같은 결과 화면의 다크 모드. 카드와 그래프 배경이 어두운 색으로 바뀐 모습" loading="lazy" width="1400" height="453"></a>
         <figcaption><b>4. 다크 모드 <span class="mine">내가 구현</span></b><span>Streamlit 테마를 자동으로 감지해 카드·그래프 색 전환</span></figcaption>
       </figure>
     </div>
@@ -709,7 +709,7 @@ new MutationObserver(detectAndApplyTheme)
       <a class="card" href="https://github.com/hayoung-create/restaurant_survival" target="_blank" rel="noopener"><b>GitHub 저장소 ↗</b><span>전체 코드와 실행 방법</span></a>
       <a class="card" href="https://github.com/hayoung-create/restaurant_survival/blob/main/modeling/main.py" target="_blank" rel="noopener"><b>내 작업 코드 ↗</b><span>전처리·라벨링·모델 비교 코드</span></a>
       <a class="card" href="https://github.com/hayoung-create/restaurant_survival/blob/main/%EC%9D%8C%EC%8B%9D%EC%A0%90_%EC%83%9D%EC%A1%B4%EC%98%88%EC%B8%A1_%ED%8C%80%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C.pptx" target="_blank" rel="noopener"><b>발표자료 ↗</b><span>팀 발표 슬라이드 (PPTX, 28쪽)</span></a>
-      <a class="card" href="restaurant_survival_portfolio.pdf" target="_blank" rel="noopener"><b>포트폴리오 PDF ↗</b><span>1페이지 요약본</span></a>
+      <a class="card" href="docs/restaurant_survival_portfolio.pdf" target="_blank" rel="noopener"><b>포트폴리오 PDF ↗</b><span>1페이지 요약본</span></a>
     </div>
   </div>
 </section>
